@@ -1,0 +1,21 @@
+<head>
+  <script>
+    function calculaFatorial() {
+      let elemento = document.getElementById('num');
+      let numero = elemento.value;
+      let resultado = 1;
+      for (let i = 1; i <= numero; i++) {
+        resultado = resultado * i;
+      }
+      console.log(resultado);
+    }
+  </script>
+</head>
+
+<body>
+<input id="num" />
+<button id="botao" onclick="calculaFatorial()">botao</button>
+
+</body>
+
+</html>
